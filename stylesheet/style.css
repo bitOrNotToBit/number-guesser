@@ -61,3 +61,90 @@ body{
     padding:15px;
     border-radius:20px;
 }
+
+#parent_information{
+    font-weight: 200;
+    background-image:linear-gradient(to right, rgb(209, 173, 230),lightblue);
+}
+#parent_information h3{
+    font-weight: 300;
+}
+#round_heading{
+    text-align: center;
+    font-weight: 400;
+}
+#msg{
+    font-weight: 400;
+    color:white;
+}
+#computer_choice{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#computer_choice h3{
+    flex-basis: 45%;
+    border:1px solid black;
+    padding:5px;
+    border-radius: 15px;
+    text-align: center;
+}
+#user_choice{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#user_choice h3{
+    flex-basis: 30%;
+    border:1px solid black;
+    padding:5px;
+    border-radius:15px;
+    text-align: center;
+}
+#user_choice > div{
+    flex-basis: 30%;
+    padding:0;
+    /* border:1px solid black; */
+    /* padding:5px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+#user_choice div button{
+    flex-basis: 45%;
+    padding:5px;
+    margin:0;
+    border-radius:15px;
+    border:0;
+    box-shadow: 0px 3px 5px rgb(173, 173, 173);
+}
+#user_choice div button:nth-child(1){
+    background-color:lightcoral;
+}
+#user_choice div button:nth-child(2){
+    background-color:rgb(128, 214, 240);
+}
+#user_choice div button:active{
+    box-shadow: 0px 0px 5px rgb(173, 173, 173);
+}
+
+#guess_btn { 
+    text-align: center;
+    background-image:linear-gradient(to right,lightgreen,rgb(113, 199, 113));
+}
+
+#guess_btn:active{
+    box-shadow:inset 0px 3px 5px grey !important;
+}
+
+#next_round{
+    color:rgb(223, 219, 219);
+    text-align:center;
+    background-image: linear-gradient(to right, rgb(223, 100, 100),rgb(160, 86, 86));
+}
+#next_round:active{
+    box-shadow:inset 0px 3px 5px grey !important;
+}

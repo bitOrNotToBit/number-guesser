@@ -86,6 +86,7 @@ body{
 }
 #computer_choice h3{
     flex-basis: 45%;
+    font-weight: 400;
     border:1px solid black;
     padding:5px;
     border-radius: 15px;
@@ -99,13 +100,16 @@ body{
     align-items: center;
 }
 #user_choice h3{
-    flex-basis: 30%;
+    font-weight: 400;
+    box-sizing: border-box;
+    flex-basis: 33%;
     border:1px solid black;
     padding:5px;
     border-radius:15px;
     text-align: center;
 }
 #user_choice > div{
+    box-sizing: border-box;
     flex-basis: 30%;
     padding:0;
     /* border:1px solid black; */

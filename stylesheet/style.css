@@ -115,7 +115,7 @@ body{
 }
 #user_choice div button{
     flex-basis: 45%;
-    padding:5px;
+    padding:10px 5px;
     margin:0;
     border-radius:15px;
     border:0;
@@ -134,17 +134,19 @@ body{
 #guess_btn { 
     text-align: center;
     background-image:linear-gradient(to right,lightgreen,rgb(113, 199, 113));
+    box-shadow: 0px 3px 5px rgb(173, 173, 173) !important;
 }
 
 #guess_btn:active{
-    box-shadow:inset 0px 3px 5px grey !important;
+    box-shadow: 0px 0px 5px grey !important;
 }
 
 #next_round{
     color:rgb(223, 219, 219);
     text-align:center;
+    box-shadow: 0px 3px 5px rgb(173, 173, 173) !important;
     background-image: linear-gradient(to right, rgb(223, 100, 100),rgb(160, 86, 86));
 }
 #next_round:active{
-    box-shadow:inset 0px 3px 5px grey !important;
+    box-shadow:0px 0px 5px grey !important;
 }

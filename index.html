@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guesser!</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+<body>
+    <h1 id="container_header"> Number Guesser</h1>
+    <div id="container">
+        <div id="container_body">
+            <div id="parent_information">
+                <h3>Round : <span id="round_number"></span> </h3>
+                <h3>User Score : <span id="user_score"></span></h3>
+                <h3>Computer Score : <span id="computer_score"></span></h3>
+                <h2 id="Target Number">-</h4>
+                <h4 id="msg"> Good Luck! </h4>
+            </div>
+            <div id="computer_choice">
+                <h3 id="computer_guess"> - </h3>
+            </div>
+            <div id="user_choice">
+                <h3 id="user_guess"> - </h3>
+                <div>
+                    <button id="decrease_number">-</button>
+                    <button id="increase_number">+</button>
+                </div>
+            </div>
+            <div>
+                <button id="guess_btn"> Guess </button>
+                <button id ="next_round"> Next Round</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
